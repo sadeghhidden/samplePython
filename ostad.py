@@ -34,6 +34,7 @@ ostad=Ostadha(shomare_ostad,name_ostad,saatKari_ostad,mablaghDaryafti_ostad)
 print(ostad.getName())
 ostad.setName("ali rezaee")
 print(ostad.getName())
+print()
 
 
 

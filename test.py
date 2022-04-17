@@ -18,7 +18,7 @@ class book:
     def show_books(self)->str:  
         return "title : {}\n author: {}\n published {}\n".format(self.title,self.author,self.tarikh)
 
-tarikh=input("tarikh enteshar: ")#daryafte tarikh enteshare ketab
+tarikh=input("tarikh entesharr: ")#daryafte tarikh enteshare ketab
 a=book("java","david jons",tarikh)#nemone az class
 res:object=a.show_books()
 print(res)
